@@ -25,6 +25,9 @@
         <module name="traversal" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="traversal" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

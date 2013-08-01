@@ -26,7 +26,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Created with IntelliJ IDEA.
- * User: C148810
+ * User: outcastgeek
  * Date: 8/1/13
  * Time: 11:30 AM
  * To change this template use File | Settings | File Templates.

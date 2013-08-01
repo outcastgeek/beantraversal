@@ -18,7 +18,7 @@ package com.outcastgeek.traversal.pojos;
 
 /**
  * Created with IntelliJ IDEA.
- * User: C148810
+ * User: outcastgeek
  * Date: 8/1/13
  * Time: 1:17 PM
  * To change this template use File | Settings | File Templates.

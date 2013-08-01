@@ -18,13 +18,20 @@ package com.outcastgeek.exceptions;
 
 /**
  * Created with IntelliJ IDEA.
- * User: C148810
+ * User: outcastgeek
  * Date: 8/1/13
  * Time: 2:06 PM
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * TraverseException
+ */
 public class TraverseException extends Exception {
 
+    /**
+     * @param t is the Throwable to be wrapped.
+     */
     public TraverseException(Throwable t) {
         super(t);
     }

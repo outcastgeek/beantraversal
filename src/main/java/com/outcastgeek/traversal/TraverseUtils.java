@@ -26,15 +26,25 @@ import java.lang.reflect.Method;
 
 /**
  * Created with IntelliJ IDEA.
- * User: C148810
+ * User: outcastgeek
  * Date: 8/1/13
  * Time: 11:30 AM
  * To change this template use File | Settings | File Templates.
+ */
+
+/**
+ * TraverseUtils
  */
 public class TraverseUtils {
 
     private static Logger logger = LoggerFactory.getLogger(TraverseUtils.class);
 
+    /**
+     * @param pojo is the POJO to be traversed
+     * @param pathSteps is traversal path
+     * @return true or false
+     * @throws TraverseException
+     */
     public static boolean isNullPath(Object pojo, String... pathSteps) throws TraverseException {
 
         boolean isNullPath = false;
@@ -74,6 +84,12 @@ public class TraverseUtils {
         return isNullPath;
     }
 
+    /**
+     * @param pojo is the POJO to be traversed
+     * @param pathSteps is traversal path
+     * @return the object a the end of the path
+     * @throws TraverseException
+     */
     public static Object getPath(Object pojo, String... pathSteps) throws TraverseException {
 
         Object value = null;
