@@ -1,0 +1,7 @@
+language: java
+jdk:
+        - openjdk6 # OpenJDK6
+        - openjdk7 # OpenJDK7
+        - oraclejdk6 # Oracle's JDK6
+        - oraclejdk7 # Oracle's JDK7
+script: mvn test
